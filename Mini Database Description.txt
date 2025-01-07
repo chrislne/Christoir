@@ -1,0 +1,38 @@
+﻿EECS 1012 Phase 1 Submission
+
+
+
+
+Student, Christoir Lane, York
+Lecture Section: B
+Lab Section: 3
+Email: chrislne@my.yorku.ca
+
+
+
+
+Project Details
+
+
+Project Name: Animal Database
+
+
+Project Description: For my project I created a "Mini-Database (Images)" game where users guess the animal being described. The game starts by asking users to enter their name, which is stored for future reference. A random animal is displayed from a list, and the user must guess its name. Case sensitivity isn't an issue, but misspellings result in incorrect answers. After each guess, the correct animal is revealed along with whether the user was right or wrong. If the guess is wrong, a "game over" screen appears with the option to restart. If correct, a new animal is randomized, and the game continues.
+
+
+Functional Requirements
+
+
+I will be responsible for the following functional requirements: 
+
+
+As a player, I want a title screen that welcomes the user and asks to store their name to use when talking to the user later on.
+As a player, I want the buttons to be customized so that when I hover over them, they change color and have a small transition animation.
+As a player, I want all the code to be displayed on different screens and hide other screens when transitioning from different things such as the title page to the game screen to the results screen, and so on.
+As a player, I want there to be a score system and tell the user their score to involve some sense of competitiveness.
+As a player, I want the game to randomly select which animal is going to be selected instead of going through the order to bring a never-ending element to the game
+As a player, I want to display the list of animals on the screen so the user knows what animals can be guessed.
+As a player, I want the result screen to show an image of the correct animal to make the game look more appealing.
+As a player, I want the descriptions for each animal to be distinct to that animal so it doesn’t confuse the player with another animal on the list that may match that description.
+As a player, I want all the different screens displays to be changed within in javascript to help organize the HTML file and for better functionality
+As a player, I want the “loadGame()” function to be able to be called upon infinitely to restart the game for the user to help organize and shorten unnecessary code.
